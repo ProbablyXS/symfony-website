@@ -5320,7 +5320,6 @@ fieldset:disabled .btn {
 .alert-presentation-description {
   padding: 1rem 1rem;
   margin-bottom: 1rem;
-  margin-left: 25rem;
   border-radius: 2.25rem;
 }
 
@@ -5380,6 +5379,7 @@ fieldset:disabled .btn {
   color: #1f5b83;
   background-color: #e7e6e6;
   border-color: #c2e0f4;
+  width: 100%;
 }
 
 .alert-info .alert-link {
@@ -11437,6 +11437,7 @@ fieldset:disabled .btn {
 .text-presentation {
   font-weight: 700;
   text-decoration: none !important;
+  text-align: left;
 }
 
 .alert a,

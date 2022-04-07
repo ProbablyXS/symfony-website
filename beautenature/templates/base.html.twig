@@ -18,12 +18,6 @@
    <link rel="stylesheet" href="assets/css/vendor.css"> 
         {% endblock %}
 
-        {% block javascripts %}
-        <script src="assets/js/jquery.min.js"></script> {# ACTIVATION DE JQUERY #}
-        <script src="assets/js/main.js"></script>
-        <script src="assets/js/custom.js"></script>
-        {% endblock %}
-
     </head>
     <body>
         {% block header %}
@@ -34,6 +28,12 @@
 
         {% block footer %}
         {% include "footer.html.twig" %}
+        {% endblock %}
+
+        {% block javascripts %}
+        <script src="assets/js/jquery.min.js"></script> {# ACTIVATION DE JQUERY #}
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/custom.js"></script>
         {% endblock %}
     </body>
 </html>

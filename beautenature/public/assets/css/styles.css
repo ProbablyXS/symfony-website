@@ -1,3 +1,9 @@
+#description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .footer-basic {
   padding: 40px 0;
   background-color: #00000014 !important;
@@ -6,6 +12,10 @@
 
 .footer-text-info {
   color: #18bc9c !important;
+}
+
+.text-presentation>p {
+  margin: 0 !important;
 }
 
 .footer-basic ul {
@@ -293,7 +303,7 @@
  }
  @media(min-width:68.2666666667rem) {
   .pro-sticky-profile {
-   width:24rem;
+   width:50rem;
    position:sticky;
    top:6.4rem;
    top:var(--header-height-desktop);
@@ -383,4 +393,9 @@
    width:auto
   }
  }
+ @media only screen and (min-width: 768px) {
+  #description {
+  flex-direction:row;
+  }
+  }
 /*END Presentation FORM*/
