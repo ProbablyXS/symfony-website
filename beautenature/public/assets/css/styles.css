@@ -1,0 +1,120 @@
+.footer-basic {
+    padding:40px 0;
+    background-color:#00000014 !important;
+
+  }
+
+  .footer-text-info {
+    color:#18bc9c !important;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+.mt-4 {
+    padding-bottom: 29rem;
+}
+
+.nav-link {
+    padding: 1.5rem 2rem;
+}
+
+.bg-primary {
+    text-align: center;
+    font-weight: bold;
+    background-color: #32dc9e !important;
+    margin-bottom: 3%;
+    display: flex;
+    position: relative;
+}
+
+.bg-primary .navbar-nav .nav-link.active {
+    color: #67ffc8 !important;
+}
+
+.container-fluid {
+    width: auto;
+    padding: 1.5rem 2rem;
+    margin: auto;
+}
+
+.display-4 {
+    font-size: calc(1.475rem + 1.7vw);
+    color: #32dc9e !important;
+}
+
+
+
+/*FONT AWESOME ICON*/
+
+.fa-facebook-square {
+    font-size: calc(1.475rem + 1.7vw);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.fa-instagram {
+    font-size: calc(1.475rem + 1.7vw);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+/* END FONT AWESOME ICON*/

@@ -10,10 +10,18 @@
          <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.css">
          <link rel="stylesheet" href="https://bootswatch.com/_vendor/font-awesome/css/font-awesome.min.css">
          <link rel="stylesheet" href="https://bootswatch.com/_vendor/prismjs/themes/prism-okaidia.css">
-         {% include "styles.css.twig" %}
+         <link rel="stylesheet" href="https://fontawesome.com/v4/assets/font-awesome/css/font-awesome.css"> {# FONT AWESOME ICON #}
+         <link rel="stylesheet" href="assets/css/styles.css">
+
+   <link rel="stylesheet" href="assets/css/base.css">  
+   <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="assets/css/vendor.css"> 
         {% endblock %}
 
         {% block javascripts %}
+        <script src="assets/js/jquery.min.js"></script> {# ACTIVATION DE JQUERY #}
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/custom.js"></script>
         {% endblock %}
 
     </head>
@@ -23,5 +31,9 @@
         {% endblock %}
 
         {% block body %}{% endblock %}
+
+        {% block footer %}
+        {% include "footer.html.twig" %}
+        {% endblock %}
     </body>
 </html>
