@@ -30,22 +30,6 @@ body {
 	margin: 0;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-	display: block;
-}
-
 audio,
 canvas,
 progress,
@@ -391,6 +375,11 @@ textarea {
  *
  * ------------------------------------------------------------------- 
  */
+
+.rowPicture {
+	max-width: 640px !important;
+}
+
 .row {
 	width: 94%;
 	max-width: 1140px;
@@ -866,6 +855,21 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  width: min(1000px, 95%);
+  margin: auto;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.album img {
+    /* width: 33%; */
+	height: 320px;
+    border: 4px solid #32dc9e4a;
 }
 
 /*# sourceMappingURL=base.css.map */

@@ -1723,6 +1723,7 @@ header .logo a {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	border-bottom: 7px solid #0404046b;
 }
 #galerie .folio-item {
 	padding: 0;
