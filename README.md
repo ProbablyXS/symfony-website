@@ -6,4 +6,4 @@ Extract
 
 Start command: composer require symfony/requirements-checker
 
-Start command: symfony start
+Start command: symfony serve
