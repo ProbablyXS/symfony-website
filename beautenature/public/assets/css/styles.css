@@ -8,11 +8,31 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding-bottom: 5rem;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 7rem;
+}
+
+.textcenter {
+  margin-bottom: auto;
+  padding-bottom: 0 !important;
+}
+
+.createcontent {
+  align-content: center !important;
+  float: right !important;
+  display: contents !important;
 }
 
 .footer-basic {
   padding: 40px 0;
   background-color: #00000014 !important;
+  border-top: 7px solid #0404046b;
 }
 
 .footer-text-info {
@@ -344,6 +364,10 @@ flex-wrap: wrap;
   margin: 0 -.2rem -.2rem 0
 }
 
+.pro-sticky-information {
+  flex-direction: row !important;
+}
+
 .pro-sticky-profile {
   display: flex;
   flex-direction: column;
@@ -444,6 +468,23 @@ flex-wrap: wrap;
   }
 }
 
+.tarif-title {
+  color: darkseagreen;
+  font-size: 50px;
+  margin-bottom: 3px;
+}
+
+.tarif-title2 {
+  color: darkseagreen;
+  font-size: 25px;
+  margin-top: 1px;
+}
+
+.tarif-title3 {
+  color: #ffffff53;
+  font-size: 20px;
+}
+
 .pro-sticky-profile__city-line {
   display: block;
   line-height: 0;
@@ -460,6 +501,11 @@ flex-wrap: wrap;
 @media only screen and (min-width: 768px) {
   #description {
     flex-direction: row;
+  }
+
+  #information {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   #navbarColor01 {

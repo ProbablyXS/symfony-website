@@ -1,0 +1,87 @@
+<!-- contact
+   ================================================== -->
+<section id="contact">
+
+	<div class="row section-intro">
+		<div class="col-twelve">
+
+			<h2>
+				<a style="color:#ffff">CONTACT</a>
+				<a style="color:#fd8000">US</h2>
+
+			</div>
+		</div>
+		<!-- /section-intro-->
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<p class="lead">You can send your request from this formular.</p>
+			</br>
+			You will receive the message in your real e-mail address.</p>
+		We will get back to you within 24 hours.</p>
+
+</div></div><!--  section-intro --><div class="row contact-form">
+
+<div
+	class="col-twelve">
+
+	<!-- form -->
+	<form name="contactForm" id="contactForm" method="post" action="">
+		<fieldset>
+
+			<div class="form-field">
+				<h5 class="lead">
+					<a style="color:#444444">Please choose the subject of your message.</a>
+				</h5>
+				<select name="contactSubject" type="text" id="contactSubject" placeholder="Subject" required="">
+					<option value="Pay with Amazon Gift Card (FR)">Pay with Amazon Gift Card (FR)</option>
+					<option value="Request my token">Request my token</option>
+					<option value="HWID reset">HWID reset</option>
+					<option value="Other reason">Other reason</option>
+				</select>
+			</div>
+			<div class="form-field">
+				<input name="contactName" type="text" id="contactName" placeholder="Your Discord" value="" minlength="2" required="">
+			</div>
+			<div class="form-field">
+				<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+			</div>
+			<div class="form-field">
+				<textarea name="contactMessage" id="contactMessage" placeholder="Exemple message:&#10;My voucher code (20€): XXXX-XXXXX-XXXX&#10;Subscribed for 3 months" rows="10" cols="50" required=""></textarea>
+			</div>
+			<br>
+			<div class="form-field">
+				<center>
+					<div class="g-recaptcha rc-anchor-dark" data-theme="dark" data-sitekey="6LfS4JkeAAAAAJAtLyOkHgy1QK5to9uBrLsCoz-Y"></div>
+				</div>
+				<br>
+				<div class="form-field">
+					<center><input name="captcha" value="" placeholder="Insert the code here" type="text"></input>
+					<img src="inc/captcha.php"/><br>
+				</div>
+				<div class="form-field">
+					<button class="submitform">Submit</button>
+					<div id="submit-loader">
+						<div class="text-loader">Sending...</div>
+						<div class="s-loader">
+							<div class="bounce1"></div>
+							<div class="bounce2"></div>
+							<div class="bounce3"></div>
+						</div>
+					</div>
+				</div>
+
+			</fieldset>
+		</form>
+
+		<!-- contact-warning -->
+		<div id="message-warning"></div>
+		<!-- contact-success -->
+		<div id="message-success">
+			<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+		</div>
+
+	</div>
+	<!-- /col-twelve -->
+</section>
