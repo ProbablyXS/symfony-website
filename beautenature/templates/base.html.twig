@@ -21,27 +21,53 @@
 			{# FONT AWESOME ICON #}
 			<link rel="stylesheet" href="assets/css/styles.css">
 			<link rel="stylesheet" href="assets/css/base.css">
-			<link rel="stylesheet" href="assets/css/main.css">
-		{% endblock %}
+			<link
+			rel="stylesheet" href="assets/css/main.css">
 
-	</head>
-	<body>
-		{% block header %}
-			{% include "header.html.twig" %}
-		{% endblock %}
 
-		{% block body %}{% endblock %}
+			{# CHANGE SCROLLBAR COLOR #}
+			<style>
+			/* width */
+			::-webkit-scrollbar {
+				width: 4px;
+			}
 
-		{% block footer %}
-			{% include "footer.html.twig" %}
-		{% endblock %}
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: #00;
+			}
 
-		{% block javascripts %}
-			{# ACTIVATION DE JQUERY #}
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/custom.js"></script>
-			<script src="assets/js/custom2.js"></script>
-		{% endblock %}
-	</body>
-</html>
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: #32dc9e;
+			}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: #32dc9e;
+			}
+		</style>
+		{# END CHANGE SCROLLBAR COLOR #}
+
+	{% endblock %}
+
+</head>
+<body>
+	{% block header %}
+		{% include "header.html.twig" %}
+	{% endblock %}
+
+	{% block body %}{% endblock %}
+
+	{% block footer %}
+		{% include "footer.html.twig" %}
+	{% endblock %}
+
+	{% block javascripts %}
+		{# ACTIVATION DE JQUERY #}
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/custom.js"></script>
+		<script src="assets/js/custom2.js"></script>
+	{% endblock %}
+</body></html>
