@@ -13,9 +13,13 @@ body {
 
 #information {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
   padding-bottom: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: min(1000px, 95%);
+  margin: auto;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .textcenter {
@@ -405,6 +409,11 @@ flex-wrap: wrap;
   border-radius: 2rem;
   align-items: center;
   flex-direction: column
+}
+
+.presentation-group {
+  align-items: center;
+  margin: auto !important;
 }
 
 @media(min-width:68.2666666667rem) {
