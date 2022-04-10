@@ -1730,6 +1730,20 @@ header .logo a {
 	border-bottom: 7px solid #0404041a;
 }
 
+#faq {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+	border-bottom: 7px solid #0404041a;
+}
+
+#tarifs {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+	border-bottom: 7px solid #0404041a;
+}
+
 #presentation {
 	border-bottom: 7px solid #0404041a;
 }

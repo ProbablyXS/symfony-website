@@ -27,6 +27,28 @@ body {
   padding-bottom: 0 !important;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.page-presentaton {
+  margin-top: unset !important;
+  padding-bottom: 12rem !important;
+  padding-top: 12rem;
+}
+
+.borderbox {
+  border-radius: 2rem;
+  padding: 1.3333333333rem;
+  box-sizing: border-box;
+  position: sticky;
+  top: 6.4rem;
+  top: var(--header-height-desktop);
+  box-shadow: 0 .1333333333rem 1.3333333333rem rgba(0, 0, 0, .06);
+  float: left;
+}
+
 .createcontent {
   align-content: center !important;
   float: right !important;
@@ -474,6 +496,14 @@ flex-wrap: wrap;
 @media(min-width:68.2666666667rem) {
   .pro-sticky-profile__universes {
     margin: 0 .3333333333rem .3333333333rem 0
+  }
+}
+
+@media screen and (max-width: 943px){
+  .column {
+    float: unset !important;
+    width: auto !important;
+      /*rest of the styles*/
   }
 }
 
