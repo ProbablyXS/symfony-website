@@ -22,6 +22,31 @@ body {
   justify-content: center;
 }
 
+.services-picture {
+  border: solid;
+  border-color: darkgreen;
+  border-radius: 8px;
+}
+
+.services {
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+
+
+.services-form {
+  border: solid;
+  display: flex;
+  padding-bottom: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: min(350px, 95%);
+  margin: auto;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .textcenter {
   margin-bottom: auto;
   padding-bottom: 0 !important;

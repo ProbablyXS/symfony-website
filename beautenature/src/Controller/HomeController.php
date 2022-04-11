@@ -12,15 +12,8 @@ class HomeController extends AbstractController {
     #[Route('/', methods: ['GET'])]
     public function index() 
     {
-
-
-        // TEST
-
+        // SCRAPING PAGE
         require_once '../public/inc/scraping.php';
-
-
-
-
 
        //return new Response('<html><body>Hello world</body></html>');    
         return $this->render('home.index.twig', ["reviews" => $reviews]);
